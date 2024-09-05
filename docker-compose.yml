@@ -3,7 +3,7 @@ services:
     image: golang:latest
     container_name: goencomenda
     volumes:
-      - $HOME/workspace/uninassau/Wellington/encomendas-api:/app
+      - $C:\Users\37022091\workspace\uninassau\Wellignton\encomendas-api
     working_dir: /app
     command: go run main.go
     ports:
